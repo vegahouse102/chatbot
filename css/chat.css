@@ -33,8 +33,8 @@ body{
   }
 #chat-body{
     box-sizing: border-box;
-    height: 50rem;
-    width:30rem;
+    height: 80vh;
+    width:calc(80vh*5/7);
     right:4rem;
     bottom:4rem;
     position: fixed;
@@ -46,10 +46,10 @@ body{
 #chat-head{
     background: linear-gradient(90deg,#4880EE,#52A5DA);
     display: flex;
-    min-height: 5%;
+    /* min-height: ; */
     box-sizing: border-box;
     width: 100%;
-    height: 6%;
+    height: 3rem;
     padding-right: 0.625rem;
     border-bottom: 2px;
 }
@@ -176,7 +176,7 @@ body{
     }
     #chat-head{
         min-height: 4%;
-        height:4%;
+        height:3rem;
     }
     #chat-body{
         right: 0;
